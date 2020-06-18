@@ -1,8 +1,9 @@
-function add(a,b){
-let a = 10;
-let b = 14;
-return a+b;
-}
-document.writeln(a+b);
-
-
+function numberSum(N) {
+    var total = 0;
+      for(var i = 1; i <= N; i++){
+        total += i;
+      }
+      return total;
+      document.writeln(total)
+  }
+  
